@@ -8,16 +8,17 @@ const styles = theme => ({
     paper: {
         ...theme.mixins.gutters(),
         paddingTop: theme.spacing.unit * 2,
-        paddingBottom: theme.spacing.unit * 2,
+        paddingBottom: theme.spacing.unit * 2
+
     },
 });
 
 function PaperSheet(props) {
-    const {children, style={}, classes } = props;
+    const {children, style={}, className='', classes } = props;
 
     return (
         <div>
-            <Paper className={classes.paper} style={style} elevation={1}>
+            <Paper className={classes.paper+className} style={style} elevation={1}>
                 {children}
             </Paper>
         </div>

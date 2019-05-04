@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Login Background Image
+Login background images has been fetched from [https://picsum.photos/](https://picsum.photos/) and each time 
+the login page is loaded, a new image will be shown.

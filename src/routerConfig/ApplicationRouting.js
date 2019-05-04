@@ -1,5 +1,4 @@
 import HomePage from "../routes/Home";
-import ItemDetailPage from "../routes/ItemDetail";
 
 const ApplicationRouting =[
     {
@@ -7,12 +6,6 @@ const ApplicationRouting =[
         requireAuthentication:true,
         exact:true,
         component:HomePage
-    },
-    {
-        path:'/app/details/:id',
-        exact:true,
-        requireAuthentication:true,
-        component:ItemDetailPage
     },
     {
         redirect:true,

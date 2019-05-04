@@ -8,7 +8,7 @@ const ApplicationWrapper = () =>{
 
     const routes = GenerateRoutingComponents(ApplicationRouting)
     return (
-        <div>
+        <div style={{height:'100%'}}>
             <PrimarySearchAppBar/>
             <Switch>
                 {routes}
